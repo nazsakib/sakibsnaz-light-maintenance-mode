@@ -1,68 +1,97 @@
-🛠️ Light Maintenance Mode
-Light Maintenance Mode is a super lightweight, high-performance WordPress plugin designed to put your site into maintenance or "Coming Soon" mode with a single click. Unlike heavy page-builder plugins, this tool focuses on speed, simplicity, and modern UI.
+Light Maintenance Mode
+
+Light Maintenance Mode is a super lightweight, high-performance WordPress plugin designed to put your site into Maintenance or Coming Soon mode with a single click.
+Unlike heavy page-builder plugins, it focuses on speed, simplicity, and a modern UI.
 
 ✨ Features
-1. One-Click Toggle
-Enable or disable maintenance mode instantly from a simple checkbox in your settings.
+One-Click Toggle
 
-2. Custom Branding & Design
-Custom Heading: Change the "Site Under Maintenance" text to your own custom message.
+Enable or disable maintenance mode instantly using a simple checkbox in the plugin settings.
 
-Color Picker: Match your brand by choosing a custom background color using the native WordPress color picker.
+Custom Branding & Design
 
-Modern UI: A centered, responsive card design that looks great on mobile and desktop.
+Custom heading text
 
-3. IP Whitelisting
-Allow specific visitors (like clients or teammates) to bypass the maintenance screen.
+Background color picker (native WordPress color picker)
 
-Enter multiple IP addresses separated by commas to grant access to the live site.
+Centered, responsive card layout (mobile & desktop friendly)
 
-4. Social Connectivity
-Display stylish, brand-colored circular icons for Facebook, X (Twitter), and Instagram.
+IP Whitelisting
 
-Keep your audience engaged even while the site is down.
+Allow specific visitors (clients or teammates) to bypass maintenance mode
 
-5. Smart Admin Indicators
-Admin Bar Notice: A red/green status dot in the top admin bar reminds you when maintenance is active.
+Supports multiple IP addresses separated by commas
 
-Dashboard Alert: A clear warning banner appears at the top of the WordPress admin pages when the site is hidden from the public.
+Social Connectivity
 
-6. SEO & Security
-503 Status Code: Returns a "Service Temporarily Unavailable" header to ensure search engines don't de-index your site.
+Display circular social icons:
 
-Role-Based Access: Logged-in administrators always have full access to the site for editing.
+Facebook
+
+X (Twitter)
+
+Instagram
+
+Smart Admin Indicators
+
+Admin bar red/green status indicator
+
+Dashboard warning banner when maintenance mode is active
+
+SEO & Security
+
+Returns HTTP 503 Service Temporarily Unavailable
+
+Prevents search engine de-indexing
+
+Logged-in administrators always have full access
 
 🚀 Installation
-Download: Clone this repository or download the latest release .zip.
 
-Upload: In your WordPress dashboard, go to Plugins → Add New → Upload Plugin.
+Download or clone this repository
 
-Activate: Activate the plugin through the Plugins menu.
+Go to WordPress Dashboard → Plugins → Add New → Upload Plugin
 
-Configure: Navigate to Settings → Maintenance Mode to customize your page.
+Upload the ZIP file and activate the plugin
+
+Navigate to Settings → Maintenance Mode to configure
 
 🛠️ Technical Specifications
+
 Plugin Slug: sakibsnaz-light-maintenance-mode
 
 Text Domain: sakibsnaz-light-maintenance-mode
 
-Unique Prefix: slmm_ (Prevents conflicts with other plugins)
+Unique Prefix: slmm_
 
 PHP Requirement: 7.2 or higher
 
-WP Requirement: 5.0 or higher
+WordPress Requirement: 5.0 or higher
 
 📂 File Structure
-Plaintext
-
 sakibsnaz-light-maintenance-mode/
-├── sakibsnaz-light-maintenance-mode.php  # Main Plugin File
-├── readme.txt                             # WordPress.org Repository File
-└── README.md                              # GitHub Documentation
+├── sakibsnaz-light-maintenance-mode.php
+├── readme.txt
+└── README.md
+
 📄 License
-This plugin is licensed under the GPLv2 or later.
+
+This plugin is licensed under the GPL v2 or later.
 
 🤝 Contributing
-Feel free to fork this project, submit pull requests, or report issues. My goal is to keep this plugin the lightest maintenance tool on the market!
 
-Author: Sakib MD Nazmush
+Contributions are welcome.
+
+Fork the repository
+
+Create a feature branch
+
+Submit a pull request
+
+Report bugs or suggest improvements
+
+The goal is to keep this plugin lightweight, fast, and dependency-free.
+
+👤 Author
+
+Sakib MD Nazmush

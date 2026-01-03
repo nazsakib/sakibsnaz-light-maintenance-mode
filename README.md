@@ -16,12 +16,15 @@ Unlike heavy page-builder plugins, it focuses on speed, simplicity, and a modern
 
 * Allow specific visitors (clients or teammates) to bypass maintenance mode
 * Supports multiple IP addresses separated by commas
-* Social Connectivity
+
+## Social Connectivity
 * Display circular social icons: Facebook, X (Twitter), Instagram
-* Smart Admin Indicators
+
+## Smart Admin Indicators
 * Admin bar red/green status indicator
 * Dashboard warning banner when maintenance mode is active
-* SEO & Security
+
+## SEO & Security
 * Returns HTTP 503 Service Temporarily Unavailable
 * Prevents search engine de-indexing
 * Logged-in administrators always have full access

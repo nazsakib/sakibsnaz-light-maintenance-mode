@@ -3,31 +3,19 @@
 Light Maintenance Mode is a super lightweight, high-performance WordPress plugin designed to put your site into Maintenance or Coming Soon mode with a single click.
 Unlike heavy page-builder plugins, it focuses on speed, simplicity, and a modern UI.
 
-## Features
+## 🚀 Version 1.0.1
 
-* One-Click Toggle
-* Enable or disable maintenance mode instantly using a simple checkbox in the plugin settings.
-* Custom Branding & Design
-* Custom heading text
-* Background color picker (native WordPress color picker)
-* Centered, responsive card layout (mobile & desktop friendly)
+Modern UI: Updated with a clean, responsive card layout.
+Improved SEO: Enhanced HTTP 503 status headers.
 
-## IP Whitelisting
+## ✨ Features
 
-* Allow specific visitors (clients or teammates) to bypass maintenance mode
-* Supports multiple IP addresses separated by commas
-
-## Social Connectivity
-* Display circular social icons: Facebook, X (Twitter), Instagram
-
-## Smart Admin Indicators
-* Admin bar red/green status indicator
-* Dashboard warning banner when maintenance mode is active
-
-## SEO & Security
-* Returns HTTP 503 Service Temporarily Unavailable
-* Prevents search engine de-indexing
-* Logged-in administrators always have full access
+* One-Click Toggle: Enable or disable maintenance mode instantly using a simple checkbox.
+* Modern Design: Displays a professional "Site Under Maintenance" message with modern CSS styling.
+* Clickable Contact: Automatically shows your site’s admin email as a clickable contact link.
+* Returns proper HTTP 503 Service Temporarily Unavailable status to prevent search engine de-indexing
+* Admin Access: Logged-in administrators always have full access to view the normal site.
+* Lightweight: Translation-ready and designed with zero bloat.
 
 ## 🚀 Installation
 
@@ -51,6 +39,18 @@ sakibsnaz-light-maintenance-mode/
 ├── readme.txt
 └── README.md
 ```
+
+## ❓ Frequently Asked Questions
+
+* Can I customize the email shown? Currently, it uses your site’s admin email found in your WordPress General Settings.
+* Does this block admins? No. Logged-in admins can see the normal site while maintenance mode is active.
+
+## 📋 Technical Specifications
+
+* Stable Tag: 1.0.1 
+* Requires at least: WordPress 5.0 
+* Tested up to: WordPress 6.9 
+* Requires PHP: 7.2 or higher
 
 ## 📄 License
 

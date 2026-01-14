@@ -3,6 +3,8 @@
 Light Maintenance Mode is a super lightweight, high-performance WordPress plugin designed to put your site into Maintenance or Coming Soon mode with a single click.
 Unlike heavy page-builder plugins, it focuses on speed, simplicity, and a modern UI.
 
+🌐 **Official Website & Docs:** [https://lightmaintenance.site](https://lightmaintenance.site)
+
 ## 🚀 Version 1.0.1
 
 Modern UI: Updated with a clean, responsive card layout.

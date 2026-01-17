@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Sakibsnaz Light Maintenance Mode
- * Plugin URI:  https://wordpress.org/plugins/sakibsnaz-light-maintenance-mode/
+ * Plugin URI:  https://lightmaintenance.site
  * Description: A lightweight plugin to enable a simple maintenance/coming soon page with one click.
  * Version:     1.0.1
  * Author:      Sakib MD Nazmush

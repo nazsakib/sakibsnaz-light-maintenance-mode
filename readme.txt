@@ -1,6 +1,7 @@
 === Sakibsnaz Light Maintenance Mode ===
 Contributors: sakibsnaz
 Donate link: https://sakibmdnazmush-shop.fourthwall.com/
+Plugin URI:  https://lightmaintenance.site
 Tags: maintenance, coming soon, site offline, lightweight
 Requires at least: 5.0
 Tested up to: 6.9

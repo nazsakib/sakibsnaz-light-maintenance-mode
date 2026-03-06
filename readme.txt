@@ -5,7 +5,7 @@ Tags: maintenance mode, coming soon, under construction, speed, minimalist
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,8 @@ Visit our official landing page: [lightmaintenance.site](http://www.lightmainten
 
 **Features:**
 * Enable/disable maintenance mode with one checkbox.
-* Displays "Site Under Maintenance" message.
+* **NEW: Custom headline and maintenance message support.**
+* Displays "Site Under Maintenance" message by default.
 * Shows your admin email as a clickable contact link.
 * Returns proper HTTP 503 status (good for SEO).
 * Lightweight and translation-ready.
@@ -65,6 +66,10 @@ No. To keep it as light as possible, it uses system fonts.
 
 == Changelog ==
 
+= 1.1.0 =
+* Major Update: Added support for custom headlines and maintenance messages.
+* Security: Improved sanitization for custom fields.
+
 = 1.0.1 =
 * Added modern CSS styling to the maintenance page.
 * Improved SEO headers (503 status).
@@ -74,5 +79,5 @@ No. To keep it as light as possible, it uses system fonts.
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-New modern UI for the maintenance page. Highly recommended.
+= 1.1.0 =
+Added support for custom headlines and messages. Highly recommended.

@@ -176,3 +176,15 @@ function slmm_render_settings_page()
     </div>
     <?php
 }
+
+/**
+ * Add "Visit Site" link to plugin action links.
+ */
+function slmm_add_action_links($links)
+{
+    $mylinks = array(
+        '<a href="https://www.lightmaintenance.site/" target="_blank">' . esc_html__('Visit Site', 'sakibsnaz-light-maintenance-mode') . '</a>',
+    );
+    return array_merge($links, $mylinks);
+}
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'slmm_add_action_links');

@@ -1,8 +1,7 @@
 === Sakibsnaz Light Maintenance Mode ===
 Contributors: sakibsnaz
 Donate link: https://sakibmdnazmush-shop.fourthwall.com/
-Plugin URI:  https://lightmaintenance.site
-Tags: maintenance, coming soon, site offline, lightweight
+Tags: maintenance mode, coming soon, under construction, speed, minimalist
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
@@ -10,13 +9,24 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A lightweight plugin to enable a simple maintenance/coming soon page with one click.
+The fastest, zero-bloat maintenance mode plugin for WordPress. Lightweight, native, and optimized for Core Web Vitals.
 
 == Description ==
+
+**Stop using 5MB plugins for a 1-page maintenance screen.**
 
 Sakibsnaz Light Maintenance Mode is a super lightweight plugin that lets you enable a maintenance/coming soon page with one click.
 
 Visitors will see a clean message with your site admin email for contact, while admins can still view the full site.
+
+Visit our official landing page: [lightmaintenance.site](http://www.lightmaintenance.site)
+
+### Why choose Light Maintenance Mode?
+* **Ultra-Lightweight:** Less than 10KB total footprint.
+* **SEO Friendly:** Sends a proper 503 Service Unavailable header to notify search engines that your site is temporarily down for maintenance, preserving your rankings.
+* **Native UI:** Familiar WordPress interface—no confusing third-party builders.
+* **Zero Dependencies:** No external scripts or fonts loaded.
+* **Developer First:** Clean code that won’t conflict with your theme or other plugins.
 
 **Features:**
 * Enable/disable maintenance mode with one checkbox.
@@ -33,11 +43,20 @@ Visitors will see a clean message with your site admin email for contact, while 
 
 == Frequently Asked Questions ==
 
+= Does this plugin affect my SEO? =
+No. It sends a 503 HTTP status code, which tells Google that the site is temporarily down. This prevents Google from indexing your "Coming Soon" page as the main content of your site.
+
+= Can I see my site while it's in maintenance mode? =
+Yes! Logged-in administrators can browse the site normally to test changes. Everyone else will see the maintenance screen.
+
 = Can I customize the email shown? =
-Currently, it uses your site’s admin email from WordPress settings[cite: 6].
+Currently, it uses your site’s admin email from WordPress settings.
 
 = Does this block admins? =
-No. Logged-in admins can see the normal site[cite: 7, 4].
+No. Logged-in admins can see the normal site.
+
+= Does it load any external fonts? =
+No. To keep it as light as possible, it uses system fonts.
 
 == Screenshots ==
 
